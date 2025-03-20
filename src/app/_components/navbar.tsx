@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Logo } from './icons'
+import * as Svg from '@/app/_components/svgs'
 
 const links = [
   { href: '/', label: 'About us' },
@@ -13,7 +13,7 @@ export function Navbar() {
   return (
     <header className="mx-auto flex max-w-1240 items-center justify-between pt-60">
       <Link href="/">
-        <Logo className="text-black" />
+        <Svg.Logo className="text-black" />
       </Link>
       <nav className="flex items-center gap-40">
         <ul className="flex items-center gap-40">

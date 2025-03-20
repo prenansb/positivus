@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Facebook, LinkedIn, Logo, Twitter } from '@/app/_components/icons'
+import * as Svg from '@/app/_components/svgs'
 
 const links = [
   { href: '/', label: 'About us' },
@@ -10,9 +10,9 @@ const links = [
 ]
 
 const socialLinks = [
-  { href: 'https://www.linkedin.com/', icon: LinkedIn },
-  { href: 'https://www.facebook.com/', icon: Facebook },
-  { href: 'https://www.twitter.com/', icon: Twitter },
+  { href: 'https://www.linkedin.com/', icon: Svg.LinkedIn },
+  { href: 'https://www.facebook.com/', icon: Svg.Facebook },
+  { href: 'https://www.twitter.com/', icon: Svg.Twitter },
 ]
 
 export function Footer() {
@@ -21,7 +21,7 @@ export function Footer() {
       <div className="bg-dark mx-auto flex max-w-1240 flex-col rounded-tl-[45px] rounded-tr-[45px] px-60 py-55">
         <div className="flex items-center justify-between">
           <Link href="/">
-            <Logo className="h-29 w-180 text-white" />
+            <Svg.Logo className="h-29 w-180 text-white" />
           </Link>
 
           <nav>
