@@ -12,6 +12,9 @@
 
 @theme inline {
   --font-space-grotesk: var(--font-space-grotesk);
+  --color-dark: var(--dark);
+  --color-light: var(--light); 
+  --color-green: var(--green);
 }
 
 body {
