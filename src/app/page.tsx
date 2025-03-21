@@ -1,4 +1,5 @@
 import { ContactUs } from '@/app/_sections/contact-us'
+import { Team } from '@/app/_sections/team'
 import { CaseStudies } from './_sections/case-studies'
 import { Hero } from './_sections/hero'
 import { OurWorkingProcess } from './_sections/our-working-process'
@@ -11,6 +12,7 @@ export default function Home() {
       <Services />
       <CaseStudies />
       <OurWorkingProcess />
+      <Team />
       <ContactUs />
     </main>
   )
