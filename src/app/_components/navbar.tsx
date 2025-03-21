@@ -2,11 +2,11 @@ import Link from 'next/link'
 import * as Svg from '@/app/_components/svgs'
 
 const links = [
-  { href: '/', label: 'About us' },
-  { href: '/services', label: 'Services' },
-  { href: '/use-cases', label: 'Use cases' },
-  { href: '/pricing', label: 'Pricing' },
-  { href: '/blog', label: 'Blog' },
+  { href: '/#', label: 'About us' },
+  { href: '/#', label: 'Services' },
+  { href: '/#', label: 'Use cases' },
+  { href: '/#', label: 'Pricing' },
+  { href: '/#', label: 'Blog' },
 ]
 
 export function Navbar() {

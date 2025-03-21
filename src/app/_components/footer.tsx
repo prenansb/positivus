@@ -5,11 +5,11 @@ import { FormEvent, useState } from 'react'
 import * as Svg from '@/app/_components/svgs'
 
 const links = [
-  { href: '/', label: 'About us' },
-  { href: '/', label: 'Services' },
-  { href: '/', label: 'Use cases' },
-  { href: '/', label: 'Pricing' },
-  { href: '/', label: 'Blog' },
+  { href: '/#', label: 'About us' },
+  { href: '/#', label: 'Services' },
+  { href: '/#', label: 'Use cases' },
+  { href: '/#', label: 'Pricing' },
+  { href: '/#', label: 'Blog' },
 ]
 
 const socialLinks = [
