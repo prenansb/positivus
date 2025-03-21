@@ -17,7 +17,7 @@ export function Services() {
       </div>
 
       <ul className="grid grid-cols-2 grid-rows-3 gap-40">
-        <li className="flex items-center justify-between rounded-[45px] bg-[#F3F3F3] p-50">
+        <li className="flex items-center justify-between rounded-[45px] border border-black bg-[#F3F3F3] p-50 shadow-[0px_5px_0px_0px_#191A23]">
           <div className="flex h-full flex-col items-start justify-between">
             <h3>
               <span className="bg-green block w-fit rounded-[7px] px-7 text-3xl font-medium">
@@ -39,7 +39,7 @@ export function Services() {
           <Image src={Img.Seo} alt="SEO" width={210} height={166} />
         </li>
 
-        <li className="bg-green flex items-center justify-between rounded-[45px] p-50">
+        <li className="bg-green flex items-center justify-between rounded-[45px] border border-black p-50 shadow-[0px_5px_0px_0px_#191A23]">
           <div className="flex flex-col items-start justify-between">
             <h3>
               <span className="block w-fit rounded-[7px] bg-white px-7 text-3xl font-medium">
@@ -61,7 +61,7 @@ export function Services() {
           <Image src={Img.PayPerClick} alt="Pay-per-click" width={210} height={166} />
         </li>
 
-        <li className="bg-dark flex items-center justify-between rounded-[45px] p-50">
+        <li className="bg-dark flex items-center justify-between rounded-[45px] border border-black p-50 shadow-[0px_5px_0px_0px_#191A23]">
           <div className="flex flex-col items-start justify-between">
             <h3>
               <span className="block w-fit rounded-[7px] bg-white px-7 text-3xl font-medium">
@@ -83,7 +83,7 @@ export function Services() {
           <Image src={Img.SocialMedia} alt="Social Media" width={210} height={166} />
         </li>
 
-        <li className="flex items-center justify-between rounded-[45px] bg-[#F3F3F3] p-50">
+        <li className="flex items-center justify-between rounded-[45px] border border-black bg-[#F3F3F3] p-50 shadow-[0px_5px_0px_0px_#191A23]">
           <div className="flex flex-col items-start justify-between">
             <h3>
               <span className="bg-green block w-fit rounded-[7px] px-7 text-3xl font-medium">
@@ -104,7 +104,7 @@ export function Services() {
 
           <Image src={Img.EmailMarketing} alt="SEO" width={210} height={166} />
         </li>
-        <li className="bg-green flex items-center justify-between rounded-[45px] p-50">
+        <li className="bg-green flex items-center justify-between rounded-[45px] border border-black p-50 shadow-[0px_5px_0px_0px_#191A23]">
           <div className="flex flex-col items-start justify-between">
             <h3>
               <span className="block w-fit rounded-[7px] bg-white px-7 text-3xl font-medium">
@@ -130,7 +130,7 @@ export function Services() {
             height={166}
           />
         </li>
-        <li className="bg-dark flex items-center justify-between rounded-[45px] p-50">
+        <li className="bg-dark flex items-center justify-between rounded-[45px] border border-black p-50 shadow-[0px_5px_0px_0px_#191A23]">
           <div className="flex flex-col items-start justify-between">
             <h3>
               <span className="bg-green block w-fit rounded-[7px] px-7 text-3xl font-medium">
