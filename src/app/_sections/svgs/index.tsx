@@ -69,3 +69,38 @@ export function Linkedin(props: ComponentProps<'svg'>) {
     </svg>
   )
 }
+
+export function Star(props: ComponentProps<'svg'>) {
+  return (
+    <svg
+      width={14}
+      height={14}
+      viewBox="0 0 14 14"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path
+        d="M7.01 2.06L14 0l-2.04 7.01L14 14l-6.99-2.04L0 14l2.06-6.99L0 0l7.01 2.06z"
+        fill="currentColor"
+      />
+    </svg>
+  )
+}
+export function CarouselArrow(props: ComponentProps<'svg'>) {
+  return (
+    <svg
+      width={24}
+      height={24}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path
+        d="M2 10.5a1.5 1.5 0 000 3v-3zm21.06 2.56a1.5 1.5 0 000-2.12l-9.545-9.547a1.5 1.5 0 10-2.122 2.122L19.88 12l-8.486 8.485a1.5 1.5 0 102.122 2.122l9.546-9.546zM2 13.5h20v-3H2v3z"
+        fill="currentColor"
+      />
+    </svg>
+  )
+}

@@ -10,7 +10,7 @@ export function Services() {
         <h2 className="bg-green w-fit rounded-[7px] px-7 text-[40px] font-medium">
           Services
         </h2>
-        <p>
+        <p className="text-lg">
           At our digital marketing agency, we offer a range of services to <br /> help
           businesses grow and succeed online. These services include:
         </p>
@@ -40,7 +40,7 @@ export function Services() {
         </li>
 
         <li className="bg-green flex items-center justify-between rounded-[45px] border border-black p-50 shadow-[0px_5px_0px_0px_#191A23]">
-          <div className="flex flex-col items-start justify-between">
+          <div className="flex h-full flex-col items-start justify-between">
             <h3>
               <span className="block w-fit rounded-[7px] bg-white px-7 text-3xl font-medium">
                 Pay-per-click
@@ -62,7 +62,7 @@ export function Services() {
         </li>
 
         <li className="bg-dark flex items-center justify-between rounded-[45px] border border-black p-50 shadow-[0px_5px_0px_0px_#191A23]">
-          <div className="flex flex-col items-start justify-between">
+          <div className="flex h-full flex-col items-start justify-between">
             <h3>
               <span className="block w-fit rounded-[7px] bg-white px-7 text-3xl font-medium">
                 Social Media
@@ -84,7 +84,7 @@ export function Services() {
         </li>
 
         <li className="flex items-center justify-between rounded-[45px] border border-black bg-[#F3F3F3] p-50 shadow-[0px_5px_0px_0px_#191A23]">
-          <div className="flex flex-col items-start justify-between">
+          <div className="flex h-full flex-col items-start justify-between">
             <h3>
               <span className="bg-green block w-fit rounded-[7px] px-7 text-3xl font-medium">
                 Email
@@ -94,7 +94,7 @@ export function Services() {
               </span>
             </h3>
 
-            <Link href="#" className="flex items-center gap-15 text-xl/28 text-white">
+            <Link href="#" className="flex items-center gap-15 text-xl/28 text-black">
               <div className="bg-dark flex h-41 w-41 items-center justify-center rounded-full">
                 <Svg.Arrow className="text-green" />
               </div>
@@ -105,7 +105,7 @@ export function Services() {
           <Image src={Img.EmailMarketing} alt="SEO" width={210} height={166} />
         </li>
         <li className="bg-green flex items-center justify-between rounded-[45px] border border-black p-50 shadow-[0px_5px_0px_0px_#191A23]">
-          <div className="flex flex-col items-start justify-between">
+          <div className="flex h-full flex-col items-start justify-between">
             <h3>
               <span className="block w-fit rounded-[7px] bg-white px-7 text-3xl font-medium">
                 Content
@@ -131,7 +131,7 @@ export function Services() {
           />
         </li>
         <li className="bg-dark flex items-center justify-between rounded-[45px] border border-black p-50 shadow-[0px_5px_0px_0px_#191A23]">
-          <div className="flex flex-col items-start justify-between">
+          <div className="flex h-full flex-col items-start justify-between">
             <h3>
               <span className="bg-green block w-fit rounded-[7px] px-7 text-3xl font-medium">
                 Analytics
@@ -141,7 +141,7 @@ export function Services() {
               </span>
             </h3>
 
-            <Link href="#" className="flex items-center gap-15 text-xl/28">
+            <Link href="#" className="flex items-center gap-15 text-xl/28 text-white">
               <div className="flex h-41 w-41 items-center justify-center rounded-full bg-white">
                 <Svg.Arrow className="text-dark" />
               </div>
@@ -156,12 +156,12 @@ export function Services() {
       <div className="relative mt-100 flex items-center justify-between rounded-[45px] bg-[#F3F3F3] px-60 py-60">
         <div className="space-y-26">
           <h3 className="text-3xl font-medium">Let’s make things happen</h3>
-          <p className="max-w-[500px] text-lg">
+          <p className="max-w-[500px] text-lg leading-[105%]">
             Contact us today to learn more about how our digital marketing services can
             help your business grow and succeed online.
           </p>
           <Link
-            className="bg-dark block w-fit rounded-[14px] px-35 py-20 text-center text-lg/28 text-white"
+            className="bg-dark hover:bg-green block w-fit rounded-[14px] px-35 py-20 text-center text-xl/28 text-white transition-all hover:text-black hover:shadow-[0_0_0_1px_rgb(0,0,0)]"
             href="#"
           >
             Get your free proposal

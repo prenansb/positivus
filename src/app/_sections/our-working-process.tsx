@@ -45,7 +45,7 @@ export function OurWorkingProcess() {
         <h2 className="bg-green w-fit rounded-[7px] px-7 text-[40px] font-medium">
           Our Working Process
         </h2>
-        <p>
+        <p className="text-lg">
           Step-by-Step Guide to Achieving <br /> Your Business Goals
         </p>
       </div>

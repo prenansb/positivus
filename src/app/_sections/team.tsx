@@ -55,7 +55,7 @@ export function Team() {
         <h2 className="bg-green w-fit rounded-[7px] px-7 text-[40px] font-medium">
           Team
         </h2>
-        <p>
+        <p className="text-lg">
           Meet the skilled and experienced team behind our <br /> successful digital
           marketing strategies
         </p>
@@ -70,7 +70,7 @@ export function Team() {
               <Image src={member.image} alt={member.name} />
               <div>
                 <h4 className="text-xl font-medium">{member.name}</h4>
-                <span>{member.role}</span>
+                <span className="text-lg leading-[115%] text-nowrap">{member.role}</span>
               </div>
 
               <Link href="#" className="absolute top-0 right-0">
@@ -79,7 +79,7 @@ export function Team() {
             </div>
 
             <div className="my-28 h-px w-full bg-black" />
-            <p>{member.description}</p>
+            <p className="text-lg leading-[115%]">{member.description}</p>
           </li>
         ))}
       </ul>
@@ -87,7 +87,7 @@ export function Team() {
       <div className="mt-40 flex justify-end">
         <Link
           href="#"
-          className="bg-dark inline-block rounded-[14px] px-76 py-20 text-center text-xl/28 text-white"
+          className="bg-dark hover:bg-green hover:text-dark inline-block rounded-[14px] px-76 py-20 text-center text-xl/28 text-white transition-colors"
         >
           See all team
         </Link>

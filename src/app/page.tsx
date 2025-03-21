@@ -1,5 +1,6 @@
 import { ContactUs } from '@/app/_sections/contact-us'
 import { Team } from '@/app/_sections/team'
+import { Testimonials } from '@/app/_sections/testimonials'
 import { CaseStudies } from './_sections/case-studies'
 import { Hero } from './_sections/hero'
 import { OurWorkingProcess } from './_sections/our-working-process'
@@ -13,6 +14,7 @@ export default function Home() {
       <CaseStudies />
       <OurWorkingProcess />
       <Team />
+      <Testimonials />
       <ContactUs />
     </main>
   )
