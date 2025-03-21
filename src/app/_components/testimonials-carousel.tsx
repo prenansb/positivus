@@ -40,16 +40,18 @@ export function TestimonialsCarousel() {
       <div className="overflow-hidden" ref={emblaRef}>
         <div className="flex">
           {Array.from({ length: 5 }).map((_, index) => (
-            <div key={index} className="min-w-0 flex-[0_0_606px] pr-4 pl-4">
+            <div key={index} className="relative min-w-0 flex-[0_0_606px] pl-20">
               <div className="p-1">
                 <div className="border-green relative rounded-[45px] border px-52 py-48">
-                  <div className="text-lg text-white">
+                  <div className="text-lg/[110%] text-white">
                     "We have been working with Positivus for the past year and have seen a
                     significant increase in website traffic and leads as a result of their
                     efforts. The team is professional, responsive, and truly cares about
                     the success of our business. We highly recommend Positivus to any
                     company looking to grow their online presence."
                   </div>
+
+                  <div className="border-green bg-dark absolute bottom-[-21px] left-65 h-40 w-40 rotate-45 border-r border-b" />
                 </div>
 
                 <div className="pt-48 pl-80">
